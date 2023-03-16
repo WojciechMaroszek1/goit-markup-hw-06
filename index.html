@@ -57,6 +57,59 @@
 							<button class="modal-btn-bg" data-modal-close>
 								<svg class="modal-btn"><use href="./images/icons.svg#icon-close"></use></svg>
 							</button>
+							<form class="contact-form-container" name="contact_form" autocomplete="on">
+								<h3 class="contact-form-tittle">Zostaw swoje dane w formularzu poniżej</h3>
+								<div class="contact-form-box">
+									<label>
+										<span class="contact-form-text">Imię</span>
+										<div class="contact-form-input-box">
+											<input class="contact-form-input" id="name-input" name="name-input" required />
+											<svg class="contact-form-icons">
+												<use href="./images/icons.svg#icon-person"></use>
+											</svg>
+										</div>
+									</label>
+									<label>
+										<span class="contact-form-text">Telefon</span>
+										<div class="contact-form-input-box">
+											<input class="contact-form-input" id="phone-input" name="phone-input" required />
+											<svg class="contact-form-icons">
+												<use href="./images/icons.svg#icon-phone"></use>
+											</svg>
+										</div>
+									</label>
+									<label>
+										<span class="contact-form-text">Email</span>
+										<div class="contact-form-input-box">
+											<input class="contact-form-input" id="email-input" name="email-input" required />
+											<svg class="contact-form-icons">
+												<use href="./images/icons.svg#icon-envelope"></use>
+											</svg>
+										</div>
+									</label>
+									<label>
+										<span class="contact-form-text">Komentarz</span>
+										<div class="contact-form-input-box">
+											<textarea
+												class="contact-form-input-comment"
+												id="comment-input"
+												name="comment-input"
+												placeholder="Wprowadź tekst"
+											></textarea>
+										</div>
+									</label>
+								</div>
+								<label class="contact-form-policy-box">
+									<input class="contact-form-checkbox" type="checkbox" name="" value="checked" required />
+									<span class="contact-form-policy-text">
+										Oświadczam iż akceptuję
+										<a href="#" class="contact-form-policy-text-special">Regulamin</a>
+										i
+										<a href="#" class="contact-form-policy-text-special">Politykę Prywatności</a>
+									</span>
+								</label>
+								<button class="contact-form-btn" type="submit"><p>Wyślij</p></button>
+							</form>
 						</div>
 					</div>
 				</div>
@@ -402,7 +455,7 @@
 				</div>
 				<div>
 					<h3 class="visually-hidden">Social</h3>
-					<p class="social-text">DOŁĄCZ DO NAS</p>
+					<p class="social-text">dołącz do nas</p>
 					<ul class="social-box">
 						<li>
 							<a class="social-bg" href="https://www.instagram.com/" target="_blank" rel="noopener nofollow noreferrer">
@@ -432,6 +485,19 @@
 							</a>
 						</li>
 					</ul>
+				</div>
+				<div>
+					<h3 class="visually-hidden">e-mail input</h3>
+					<p class="news-text">zapisz się do newslettera</p>
+					<form class="news-box" name="newsletter_form" autocomplete="on">
+						<label>
+							<input class="news-label" type="email" name="mail" placeholder="E-mail" required />
+						</label>
+						<button class="news-btn" type="submit">
+							<p>Zapisz się</p>
+							<svg class="icon-send"><use href="./images/icons.svg#icon-send"></use></svg>
+						</button>
+					</form>
 				</div>
 			</div>
 		</footer>

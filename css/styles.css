@@ -386,6 +386,7 @@ textarea {
 }
 
 .check__box {
+	cursor: pointer;
 	width: 16px;
 	height: 15px;
 	border-radius: 2px;

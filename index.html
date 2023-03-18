@@ -57,7 +57,7 @@
 							<button class="modal-btn-bg" data-modal-close>
 								<svg class="modal-btn"><use href="./images/icons.svg#icon-close"></use></svg>
 							</button>
-							<form class="contact-form-container" name="contact_form" autocomplete="on">
+							<form name="contact_form" autocomplete="on">
 								<h3 class="contact-form-tittle">Zostaw swoje dane w formularzu poniżej</h3>
 								<div class="contact-form-box">
 									<label>
@@ -100,7 +100,8 @@
 									</label>
 								</div>
 								<label class="contact-form-policy-box">
-									<input class="contact-form-checkbox" type="checkbox" name="" value="checked" required />
+									<input class="check__input" type="checkbox" name="" value="checked" required />
+									<span class="check__box"></span>
 									<span class="contact-form-policy-text">
 										Oświadczam iż akceptuję
 										<a href="#" class="contact-form-policy-text-special">Regulamin</a>
@@ -108,7 +109,7 @@
 										<a href="#" class="contact-form-policy-text-special">Politykę Prywatności</a>
 									</span>
 								</label>
-								<button class="contact-form-btn" type="submit"><p>Wyślij</p></button>
+								<button class="contact-form-btn" type="submit">Wyślij</button>
 							</form>
 						</div>
 					</div>
@@ -453,7 +454,7 @@
 						</ul>
 					</address>
 				</div>
-				<div>
+				<div class="social-container">
 					<h3 class="visually-hidden">Social</h3>
 					<p class="social-text">dołącz do nas</p>
 					<ul class="social-box">
@@ -486,7 +487,7 @@
 						</li>
 					</ul>
 				</div>
-				<div>
+				<div class="news-container">
 					<h3 class="visually-hidden">e-mail input</h3>
 					<p class="news-text">zapisz się do newslettera</p>
 					<form class="news-box" name="newsletter_form" autocomplete="on">
